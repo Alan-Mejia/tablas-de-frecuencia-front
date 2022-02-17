@@ -1,0 +1,53 @@
+
+.columna1{
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    height: 100%;
+    font-size: 40px;
+    height: 100%;
+    text-align: center;
+
+    /*box-sizing:border-box;*/
+  }
+  
+  :root {
+    --bg: #1e2345;
+    --violet: rgb(161, 132, 240);
+    --pink: #d60087;
+    --turquoise: #2fdabd;
+    /*font-size: 10px;*/
+  }
+  .box {
+    background-color: var(--bg);
+    border-radius: 1.5rem;
+    /*display: grid;*/
+    /*height: calc(100vh - 27rem);*/
+    padding: 3rem;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .gradient-border {
+    animation: gradient 5s linear infinite;
+    background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
+    background-repeat: repeat;
+    border-radius: 2rem;
+    /*padding: 2rem;
+    margin: 5rem;*/
+  }
+
+  .presentacion{
+      margin: 0 auto;
+  }
+
+  body{
+      background-color: black;
+  }
+
+.titulo{
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+}

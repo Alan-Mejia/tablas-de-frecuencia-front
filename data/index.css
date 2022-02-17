@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.linea{
+    border: 4px solid yellow;
+}
+
+.tabla{
+    margin: 0 auto;
+}
+.titulo{
+    color: yellow;
+}
+.highliter{
+    color: aqua;
+}
